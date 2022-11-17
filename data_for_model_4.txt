@@ -1,0 +1,7 @@
+Temperature Total.pollen Alive
+20C 747 628 
+20C 367 310
+20C 376 314
+10C 392 87
+10C 622 134
+10C 643 126

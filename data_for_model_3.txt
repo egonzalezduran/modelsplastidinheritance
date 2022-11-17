@@ -1,0 +1,14 @@
+ExperimentalGroup Subject SubgColdWT SubgGHWT Experiment Temperature Genotype Count Total.seeds
+1 D z R1 A A A 16 942992 
+1 E z R2 A A A 6 238423
+1 F z R3 A A A 10 637379
+1 G z R4 A A A 1 275794
+4 H R1 z A B A 286 167169
+4 I R2 z A B A 402 147661
+4 J R3 z A B A 463 164400
+2 K z z B A A 0 14060 
+3 L z z B A B 24 18060
+5 M z z B B A 16 9560
+7 N z z B B B 198 9060 
+6 O z z C B A 31 12000
+8 P z z C B B 396 12500
