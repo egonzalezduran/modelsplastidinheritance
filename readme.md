@@ -1,6 +1,3 @@
-# modelsplastidinheritance
-
-# README:
 
 This is code assocciated with the  manuscript
 
