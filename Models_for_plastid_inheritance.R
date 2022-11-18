@@ -483,21 +483,21 @@ plotM4
 #AQ E A 29 21
 #AR E A 33 27
 #AS E A 37 29
-#T F B 62 45
-#U F B 76 46
-#V F B 81 55
-#W F B 60 40
-#X F B 56 40
-#Y G B 104 71
-#Z G B 96 56
-#ZA G B 128 90
-#ZB G B 183 132
-#ZC G B 105 65
-#ZD H B 88 43
-#ZE H B 63 42
-#ZF H B 48 24
-#ZG H B 47 32
-#ZH H B 54 35
+#T G B 104 71
+#U G B 96 56
+#V G B 128 90
+#W G B 183 132
+#X G B 105 65
+#Y H B 88 43
+#ZA H B 63 42
+#ZB H B 48 24
+#ZC H B 47 32
+#ZD H B 54 35
+#ZE F B 62 45
+#ZF F B 76 46
+#ZG F B 81 55
+#ZH F B 60 40
+#ZI F B 56 40
 
 ### A and B are wt and dpd1 genotype
 ### Replicates C, D and E are from wt. F G and H from dpd1 
@@ -526,13 +526,13 @@ df.fitted.means.M5[1,] <- fitted(PSexp2.bin.M5)
 df.fitted.means.M5<- rbind(df.fitted.means.M5, rep(1,6))
 df.fitted.means.M5<- rbind(df.fitted.means.M5, c(Polsurdpd1$Total.pollen))
 rownames(df.fitted.means.M5)<-c("fitted.total","grp","Total.pollen")
-colnames(df.fitted.means.M5)<-c("C","D","E","F","H","G")
+colnames(df.fitted.means.M5)<-c("C","D","E","G","H","F")
 df.fitted.means.M5<-as.data.frame(t(df.fitted.means.M5))
 
 
 df.effects.M5 <- as.data.frame(matrix(data=NA, nrow=6, ncol=6), rownames = c("A","B") )
 df.effects.M5[,1]  <- c("A","A","A","B","B","B")
-df.effects.M5[,2]  <- c("C","D","E","F","G","H")
+df.effects.M5[,2]  <- c("C","D","E","G","H","F")
 df.effects.M5[,3] <-  c(822/977,822/977,822/977,816/1251,816/1251,816/1251)
 df.effects.M5[,4] <- c(rep(log(822/977, base = 10),3), rep(log(816/1251, base = 10),3))
 df.effects.M5[,5] <- c(1,2,3,4,5,6)
