@@ -567,7 +567,7 @@ plotM5
 
 sink('Models_untransformed_parameters_AICc_logLik.txt')
 
-########## Parameters and SD deviations in this report are in log e, they have to be transformed to match those in Extended Data Table 2
+########## Parameters and SEs in these reports are in log e, they have to be transformed to match those in Extended Data Table 2
 
 print("M1 negative binomial: LS.exp1.nb.M1") 
 summary(LSexp1.nb.M1)
