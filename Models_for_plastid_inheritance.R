@@ -761,7 +761,7 @@ PM4[,7]<-SM4$coefficients[,4]
 PM5[,7]<-SM5$coefficients[,4]
 Master.table.PM.lognatural<-as.data.frame(bind_rows(PM1,PM2,PM3,PM4,PM5))
 colnames(Master.table.PM.lognatural) <- c("Parameter","Estimate","Standard.Error","CI95.lower.bound","CI95.upper.bound", "Wald.z-statistic", "P-value")
-rownames(Master.table.PM.lognatural) <- c("M1 Intercept","M1 High Light", "M1 Heat", "M1 Drought", "M1 Cold", 
+Master.table.PM.lognatural[,1] <- c("M1 Intercept","M1 High Light", "M1 Heat", "M1 Drought", "M1 Cold", 
                                           "M2 Intercept", "M2 Cold", "M2 Experiment GPT", 
                                           "M3 Intercept", "M3 Genotype dpd1", "M3 Cold", "M3 Experiment 2", "M3 Experiment 3", "M3 Interaction dpd1/cold",
                                           "M4 Intercept", "M4 cold",
