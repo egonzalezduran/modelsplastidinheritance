@@ -1,8 +1,8 @@
 ####################### R Code for statistical models (GLM) ########################################
 ## "Control of plastid inheritance by environmental and genetic factors"                         ###
-## Chung, K.P ; Gonzalez-Duran, E; Ruf, S.; Endries, P. and Bock, R (2022)                       ###
-## Publishing in Nature Plants                                                                   ###
-## Version 17.11.2022 by Enrique Gonzalez-Duran,                                                 ###
+## Chung, K.P ; Gonzalez-Duran, E; Ruf, S.; Endries, P. and Bock, R (2023)                       ###
+## Published in Nature Plants https://www.nature.com/articles/s41477-022-01323-7                 ###
+## Version 16.01.2023 by Enrique Gonzalez-Duran,                                                 ###
 ## Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                     ###  
 ## R version 3.5.3 accessed through R studio  22.07.2022 Build 576                               ###   
 ################################################################################################ ###   
